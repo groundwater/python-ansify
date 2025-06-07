@@ -2,38 +2,17 @@
 
 Python tools for creating ANSI graphics.
 
-- [ ] Fonts
-  - [ ] System Fonts -> Img
-- [ ] Image
-  - [ ] Layer
-    - [ ] #raster(x, y)
-  - [ ] AffineLayer(transform, layer)
-  - [ ] QRCodeLayer(code)
-  - [ ] ImageLayer(source)
-  - [ ] CropLayer(layer)
-  - [ ] FontLayer(text, font, fontSize)
-  - [ ] BackgroundLayer(color)
-  - [ ] Composite()
-    - [ ] .add(layer, mode="")
-- [ ] Display
-  - [ ] 8-bit
-  - [ ] 24-bit
-
 # Development
 
 ## Virtual Env
-
+Setup a virtual environment
 
 ## Dependencies
 
+Install and link the `ansify` command.
+
 ```
 pip install -e .
-```
-
-## Update
-
-```
-poetry add $DEP
 ```
 
 # Install
